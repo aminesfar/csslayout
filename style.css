@@ -1,0 +1,199 @@
+body {margin: 0;
+}
+header { 
+    background-color: white;
+    height: 80px;
+    position: sticky;
+    top: 0;}  
+
+    .logo-docplanner {
+        width: 250px;
+        height: 80px;
+        margin-left: 80px;
+        margin-top: 10px;
+     
+    
+    }
+    .navbar_menu {
+        display: flex;
+        justify-content: space-around;  
+        
+        
+    }
+    .dropdown-content{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        width: 250px;
+        margin-right: 70px
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+       
+        
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }/*
+      </style>
+      
+      <div class="dropdown">
+        <span>Mouse over me</span>
+        <div class="dropdown-content">
+          <p>Hello World!</p>
+        </div>
+      </div>*/
+      .bob{
+        display: flex;
+        align-items: center;
+        margin-left: 46%;
+
+      }
+      .titre{
+        margin-left: 420px;
+        color: turquoise;
+        font-size: 40px;
+       
+      }
+      .paragraphe{
+        display: flex;
+        padding-left: 300px;
+        padding-right: 300px;
+        margin-right: 50px;
+        margin-left:20px ;
+        background-color: white;
+        font-size: 25px;
+        
+      }
+      .section2{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 300px;
+        margin-right: 60px;
+        margin-top: 20px;
+        width: 1000px;
+        padding-bottom: 50px;
+
+      }
+      #p1{
+        padding: 10px;
+        margin: 30px;
+        background-color: lightgreen;
+        border-radius: 10%;
+      }
+      #p2{
+        padding: 10px;
+        margin: 30px;
+        background-color: lightblue;
+        border-radius: 10%;
+      }
+      #p3{
+        padding: 10px;
+        margin: 30px;
+        background-color: lightgrey;
+        border-radius: 10%;
+        
+      }
+      #p4{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .brands-p{
+        padding-right: 10px;
+        padding-top: 100px;
+        padding-left: 10px;
+        margin-left: 0px;/*
+        background-color: red;*/
+        font-size: 38px;
+        font-style: italic;
+      }
+     .section3{
+        background-color: turquoise;
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+        
+        
+        
+
+     }
+     .left{
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 50px;
+        background-color: whitesmoke;
+        margin-bottom: 200px;
+        margin-left: 180px;
+        margin-right: 30px;
+        margin-top: 50px;
+        border-radius: 10%;
+        
+     }
+     .right{
+        background-color: turquoise;
+        display:flex;
+        margin-left: 10px;
+        margin-right: 1 0px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        padding-right: 0px;
+     }
+     .box{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-right: 20px;
+        padding-left: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 180px;
+        border-radius: 10%;
+        background-color: whitesmoke;
+    }
+    .section4{ 
+       
+        padding-left: 500px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-style: oblique;
+
+    }
+    .section5{
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: lightyellow;
+    }
+    #section6{
+        padding-left: 550px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    #button3{
+        padding-left: 600px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-style: italic;
+    }
+
