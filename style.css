@@ -1,11 +1,43 @@
-body {margin: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
+
+/* ------------------------------------header-------------------------------------------------------------------- */
 header { 
-    background-color: white;
+    margin-top: 0;
+    padding-top: 0;
     height: 80px;
     position: sticky;
-    top: 0;}  
+    top: 0;
+}  
+.navbar_menu {
+    display: flex;
+    justify-content: space-around; 
+    height: 100px;
+   align-items: center;
+   background-color: white;
+    
+}
+.boutons {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type:none;
+    margin:0;
+}
+.boutons a {
+    text-decoration: none;
+    color: black;
+}
+.boutons li:hover {
+color:#00b39b;
+}
 
+.boutons a:hover {
+color:#00b39b;
+}
     .logo-docplanner {
         width: 250px;
         height: 80px;
@@ -14,47 +46,48 @@ header {
      
     
     }
-    .navbar_menu {
-        display: flex;
-        justify-content: space-around;  
-        
-        
+  
+    .text{
+        font-style: italic;
     }
-    .dropdown-content{
-        display: flex;
-        justify-content: space-evenly;
-        list-style: none;
-        width: 250px;
-        margin-right: 70px
-    }
-    .dropdown {
+    /* -------------------------------------------------dropdown------------------------------------------------------ */
+    .dropbtn {
+
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      .dropdown {
         position: relative;
         display: inline-block;
-       
-        
       }
+      
       .dropdown-content {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        padding: 12px 16px;
         z-index: 1;
-        
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {
+      background-color: #f1f1f1;
+      color:#00b39b;
       }
       
       .dropdown:hover .dropdown-content {
         display: block;
-      }/*
-      </style>
-      
-      <div class="dropdown">
-        <span>Mouse over me</span>
-        <div class="dropdown-content">
-          <p>Hello World!</p>
-        </div>
-      </div>*/
+      }
       .bob{
         display: flex;
         align-items: center;
@@ -75,6 +108,7 @@ header {
         margin-left:20px ;
         background-color: white;
         font-size: 25px;
+        font-style: italic;
         
       }
       .section2{
@@ -106,29 +140,46 @@ header {
         border-radius: 10%;
         
       }
-      #p4{
-        display: flex;
-        justify-content: space-evenly;
-      }
+    
       .brands-p{
         padding-right: 10px;
         padding-top: 100px;
         padding-left: 10px;
-        margin-left: 0px;/*
-        background-color: red;*/
+        margin-left: 0px;
+        color:turquoise;
         font-size: 38px;
         font-style: italic;
       }
+      .brands-p{
+        display: flex;
+        justify-content: center;
+      }
+      .brands__logos {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: space-between;
+      }
+      .brands-li svg path{ 
+         fill: #C4C4C4;
+      }
+      .brands-li svg path:hover{
+        fill: turquoise; 
+        
+      }
+      .brands__logos li{
+        list-style-type: none;
+
+      }
+
      .section3{
         background-color: turquoise;
         display: flex;
         padding-top: 50px;
         padding-bottom: 10px;
-        margin-bottom: 50px;
-        
-        
-        
-
+        margin-bottom: 50px; 
      }
      .left{
         padding-top: 10px;
@@ -165,6 +216,9 @@ header {
         border-radius: 10%;
         background-color: whitesmoke;
     }
+    .bob6{
+        color:turquoise;
+    }
     .section4{ 
        
         padding-left: 500px;
@@ -177,9 +231,14 @@ header {
         padding-top: 50px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
         background-color: lightyellow;
+        gap:50px;
     }
+    .section5 button{
+        background-color: transparent;
+    }
+ 
     #section6{
         padding-left: 550px;
         padding-right: 20px;
@@ -195,5 +254,9 @@ header {
         justify-content: space-around;
         flex-wrap: wrap;
         font-style: italic;
+        background-color: turquoise ;
+    }
+    .bob9{
+        color:turquoise;
     }
 
